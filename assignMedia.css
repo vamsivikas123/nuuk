@@ -1,0 +1,392 @@
+/* header media */
+@media only screen and (max-width:768px) and (min-width:320px){
+    .homePage{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     position: relative;
+     background-image: linear-gradient(to right, #cbcbd4c9, #ceccd712), url(images/slide-2.jpg);
+     background-size:contain ;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    }
+    header nav{
+        display: none;
+    }
+    .information{
+        display: none;
+    }
+    header a{
+        padding: 35px auto;
+        margin-bottom: 0%;
+        background-color: #E47312;
+    }
+    header a img{
+        width: 170px;
+        height: 40px;
+    }
+   .content{
+    padding-top: 0%;
+    margin-top: 0%;
+    width: 75.2%;
+   }
+    .content h1{
+        font-size: 40px;
+        width: auto;
+        letter-spacing: 3px;
+    }
+    .content p{
+        font-size: 20px;
+        
+    }
+    .content button{
+        font-size: 11px;
+        width: auto;
+        padding: 20px;letter-spacing: 2px;
+        margin-top: 0%;
+        background-color: #E47312;
+        width: auto;
+    }
+    .media_icons{
+        position: absolute;
+        top: 330px;
+       
+    }
+    .media_icons img{
+        height: 15px;
+        width: 15px;
+        padding: auto;
+    }
+    .information{
+        display: none;
+    } 
+    .services{
+        margin: auto;
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .services_section{
+        position: relative;
+       margin-bottom: 0%;
+        padding-left: 0%;
+        width: auto;
+    }
+    .services_section h1{
+        font-size: 45px;
+        line-height: 0%;
+        letter-spacing: 2px;
+        width: auto;
+    }
+    .services_section h3{
+        position: absolute;
+        font-size: 20px;
+        width:auto;
+        top:20px;
+        left: -30px;
+        margin-left: 0%;
+        letter-spacing: normal;
+    }
+    .view_service{
+        margin-top: 0%;
+        font-size: 13px;
+        width: auto;
+    }
+    .services_items{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0%;
+        margin: 20px;
+        width: 100%;
+    }
+    .services_items div{
+        width: auto;
+        margin: 0%;
+    }
+    .server_container{
+    display: flex;
+    flex-direction: column;
+    }
+    .server_container div{
+        width: 100%;
+        margin: 0%;
+    }
+    .about_server{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .about_heading{
+        margin-left: 0%; 
+        width: auto; 
+    }
+    .about_heading h3{
+        font-size:50px ;
+        letter-spacing: 1px;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    .about_heading h4{
+        font-size: 20px;
+        top: -10px;
+    }
+    .employers_status {
+        display: flex;
+        flex-direction: column;
+    }
+    .employers_status div{
+        margin: 10px;
+    }
+    .project_flex{
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        width: 100%;
+    }
+    .project_flex div{
+        /* width: 100%; */
+        margin-left: 0%;
+    }
+    .project_headings{
+        width: 100%;
+    }
+    .project_headings h1{
+        font-size:45px ;
+        letter-spacing: 1px;
+    }
+    .project_headings h6{
+        font-size: 20px;
+        top:0;
+    }
+    .project_left_space{
+        margin-left: 5px;
+    }
+    .project_images{
+        display: flex;
+        flex-direction: column;
+    }
+    .project_images img{
+        height: 280px;
+        width: 260px; 
+        /* padding: 5px 5px; */
+    }
+    .photosOne{
+        flex-direction: column;
+        width: auto;
+        padding: 0%;
+        padding-bottom: 0%;
+    }
+    .photosOne section img{
+        height: auto;
+        
+    }
+    .photosOne section div {
+        width: auto;
+        height: auto;
+    }
+    .photosOne section{
+        width: auto; 
+        margin-bottom: 0%;   
+    }
+    .photosOne section div {
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+      margin-top: 70px;
+    }
+    .projects{
+        width: 100%;
+        background-color:#F7F8FC ;
+    }
+    .employers_status{
+        margin-left:20px ;
+    }
+    .employers_status div{
+        margin-left: 5px; 
+    }
+    .banner_bg_img{
+        width: 100%;
+        overflow: hidden;
+        background-image: linear-gradient(72deg, #e58633, rgba(232, 57, 54, 0.78)) ,url(images/banner-2.jpg);
+        background-size: cover;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .banner_bg_img div{        
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        color:#FFFFFF ;
+    }
+    .banner_bg_img div h4{
+        font-size: 20px;
+    }
+    .banner_bg_img div p{
+        font-size: 16px;
+    }
+    .team_flex{
+        flex-direction: column;
+        width: 100%;
+    }
+    .team_headings h1{
+        font-size: 60px;
+    }
+    .team_headings{
+        margin-left: 0%;
+        width: auto;
+    }
+    .about_team{
+        margin-left: 0%;
+        width: auto;
+        margin-top:0px;
+        margin: 10px;
+    }
+    .team_headings p{
+        font-size: 20px;
+        bottom: 20px;
+    }
+    .team_proffesionals{
+        width: 100%;
+        height: auto;
+    }
+    .team_members{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .team_icon_flex{
+        width: 100%;
+    }
+    .clients_block{
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        height: 100%;
+        width: 100%;
+    }
+    .clients_row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .client_headings{
+        margin-left: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .client_headings h1{
+        font-size: 40px;
+        letter-spacing: 2px;
+        /* display: none; */
+    }
+    .client_headings h6{
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+    }
+    .clients_divs{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .clients_divs h3{
+        font-size: 50px;
+        top: -30px;
+    }
+    .clients_colom {
+        margin-top: 0%;
+    }
+    .blogs_header h1{
+        font-size: 40px;
+    }
+    .blogs_header h6{
+        font-size: 25px;
+        top:0px;
+       left: 40px;
+    }
+    .blogs_page{
+        margin: 0%;
+        height: auto;
+    }
+    .blogs_header{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs_titles h6{
+        top:-10px;
+    }
+    .blog_posts{
+        flex-direction: column;
+        width: auto; 
+        margin: 4px;
+    }
+    .blog_posts div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .blog_img_details{
+        margin: 0%;
+        padding-left: 0%;
+        position: relative;
+        width: 100%;
+    }
+    .blog_img_details img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog_date{
+        position: absolute;
+        margin: 0%;
+        width: 10px;
+        top: 0;
+       left: 201px;
+        /* padding-left:100px ; */
+    }
+    .blog_date h6{
+        font-size: 10px;
+        padding: 5px;
+        width:50px;
+    }
+    .blog_date p{
+        font-size: 8px;
+        width: 40px;
+    }
+    .blog_posts{
+        width: 100%;
+    }
+    .logo_details{
+        margin: 0%;
+    }
+    .logos_header{
+        width: auto;
+        flex-direction: column;
+    }
+    .logos_header div h5{
+        width: auto;
+        text-align: center;
+    }
+    .logo_items img{
+       margin: 0px 20px 0px 70px;
+        justify-content: center;
+        padding: 0%;
+    }
+    .logo_details{
+        width: auto;
+        margin: 0%;
+    }
+    .logo_details_row{
+        flex-direction: column;
+        margin: 0%;
+    }
+    .logo_details_row div{
+        width: auto;
+    }
+    .bottom_div{
+        margin-left: 20px ;
+    }
+ }
